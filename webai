@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Free Apps</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f2f2f7;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .app-list {
+            list-style: none;
+            padding: 0;
+        }
+        .app-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .app-item:last-child {
+            border-bottom: none;
+        }
+        .app-rank {
+            width: 30px;
+            font-size: 1.2em;
+            color: #888;
+            margin-right: 10px;
+        }
+        .app-icon {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 10px;
+            background-color: #ddd; /* Placeholder for the icon */
+        }
+        .app-info {
+            flex-grow: 1;
+        }
+        .app-name {
+            font-weight: bold;
+            font-size: 1em;
+        }
+        .app-developer {
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Top Free Apps</h1>
+        <ul class="app-list">
+            <li class="app-item">
+                <span class="app-rank">1</span>
+                <div class="app-icon"></div>
+                <div class="app-info">
+                    <div class="app-name">ChatGPT</div>
+                    <div class="app-developer">OpenAI</div>
+                </div>
+            </li>
+            <li class="app-item">
+                <span class="app-rank">2</span>
+                <div class="app-icon"></div>
+                <div class="app-info">
+                    <div class="app-name">Temu: Shop Like a Billionaire</div>
+                    <div class="app-developer">Temu</div>
+                </div>
+            </li>
+           <li class="app-item">
+                <span class="app-rank">3</span>
+                <div class="app-icon"></div>
+                <div class="app-info">
+                    <div class="app-name">FlickReels - Enjoy Short Drama</div>
+                    <div class="app-developer">FARSUN PTE. LTD.</div>
+                </div>
+            </li>
+           <li class="app-item">
+                <span class="app-rank">4</span>
+                <div class="app-icon"></div>
+                <div class="app-info">
+                    <div class="app-name">Grok - ИИ ассистент</div>
+                    <div class="app-developer">xAI</div>
+                </div>
+            </li>
+                       <li class="app-item">
+                <span class="app-rank">5</span>
+                <div class="app-icon"></div>
+                <div class="app-info">
+                    <div class="app-name">Threads</div>
+                    <div class="app-developer">Instagram, Inc.</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
